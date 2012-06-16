@@ -1,11 +1,9 @@
-﻿Build started 6/16/2012 2:52:02 PM.
+﻿Build started 6/16/2012 2:55:24 PM.
      1>Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\Examen Final. Carlos Mora A..lastbuildstate".
-       PrepareForBuild:
-         Creating directory "C:\HoProjects\ExamenFinal\Debug\".
        InitializeBuildStatus:
-         Creating "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild".
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Iterator.cpp Lista.cpp Nodo.cpp
          Nodo.cpp
@@ -16,10 +14,16 @@
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\Iterator.obj
          Debug\Lista.obj
          Debug\Nodo.obj
+         Debug\Iterator.obj
+         Debug\Lista.obj
+         Debug\Nodo.obj
      1>Iterator.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>Debug\Iterator.obj : warning LNK4042: object specified more than once; extras ignored
+     1>Debug\Lista.obj : warning LNK4042: object specified more than once; extras ignored
+     1>Debug\Nodo.obj : warning LNK4042: object specified more than once; extras ignored
      1>LINK : fatal error LNK1561: entry point must be defined
      1>Done Building Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" (rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.15
+Time Elapsed 00:00:01.17

@@ -45,6 +45,24 @@
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Nodo.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\cl.command.1.tlog" />
+    <None Include="Debug\CL.read.1.tlog" />
+    <None Include="Debug\CL.write.1.tlog" />
+    <None Include="Debug\Examen Final. Carlos Mora A..lastbuildstate" />
+    <None Include="Debug\Examen Final. Carlos Mora A..log" />
+    <None Include="Debug\Examen Final. Carlos Mora A..unsuccessfulbuild" />
+    <None Include="Debug\link.command.1.tlog" />
+    <None Include="Debug\link.read.1.tlog" />
+    <None Include="Debug\link.write.1.tlog" />
+    <None Include="Debug\vc100.idb" />
+    <None Include="Debug\vc100.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Debug\Iterator.obj" />
+    <Object Include="Debug\Lista.obj" />
+    <Object Include="Debug\Nodo.obj" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
