@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Compare.h">
+    <ClInclude Include="Lista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lista.h">
+    <ClInclude Include="Compare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Nodo.h">
+    <ClInclude Include="ManejadorArchivos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,23 +44,11 @@
     <ClCompile Include="Nodo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Debug\cl.command.1.tlog" />
-    <None Include="Debug\vc100.pdb" />
-    <None Include="Debug\CL.read.1.tlog" />
-    <None Include="Debug\CL.write.1.tlog" />
-    <None Include="Debug\Examen Final. Carlos Mora A..lastbuildstate" />
-    <None Include="Debug\Examen Final. Carlos Mora A..log" />
-    <None Include="Debug\Examen Final. Carlos Mora A..unsuccessfulbuild" />
-    <None Include="Debug\link.command.1.tlog" />
-    <None Include="Debug\link.read.1.tlog" />
-    <None Include="Debug\link.write.1.tlog" />
-    <None Include="Debug\vc100.idb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="Debug\Iterator.obj" />
-    <Object Include="Debug\Lista.obj" />
-    <Object Include="Debug\Nodo.obj" />
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorArchivos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
