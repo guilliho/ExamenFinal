@@ -14,6 +14,7 @@ private:
 	string cedula;
 	Computador* pComputadoraActual;
 	List<Computador>* pComputadoras;
+	bool haCargadoArchivo;
 public:
 	Usuario();
 	~Usuario();
@@ -28,4 +29,7 @@ public:
 	void CargarPCS();
 	void ModificarPC(int posicion);
 	void EliminarPCS();
+	bool ObtenerHaCargadoArchivo();
+	void ConfigurarHaCargadoArchivo(bool haCargadoArchivo);
+	Computador* ObtenerComputadorActual();
 };

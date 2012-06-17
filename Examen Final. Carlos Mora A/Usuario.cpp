@@ -3,7 +3,7 @@
 
 Usuario::Usuario() : pComputadoraActual(nullptr), pComputadoras(nullptr)
 {
-
+	this->haCargadoArchivo = false;
 }
 
 Usuario::~Usuario()
@@ -24,7 +24,7 @@ string Usuario::ObtenerCedula()
 
 void Usuario::ConfigurarTipoPC(int tipoPC)
 {
-	if (pComputadoraActual != nullptr)
+	if (pComputadoraActual == nullptr)
 	{
 		pComputadoraActual = new Computador();
 	}
@@ -54,14 +54,16 @@ void Usuario::ConfigurarTipoSistemaOperativo(int tipoSistemaOperativo)
 
 void Usuario::MostrarPCS()
 {
+	int contador = 0;
 	Iterator<Computador>* i = new Iterator<Computador>();
 	i->setActual(pComputadoras->getPrimero());
 	if(!pComputadoras->isempty())
 	{
 		while(!i->isDone())
 		{
-			i->Mostrar();
+			cout<<contador<<" - "<<i->Mostrar();
 			i->Siguiente();
+			contador++;
 		}
 	}
 	delete i;
@@ -93,20 +95,35 @@ void Usuario::CargarPCS()
 
 void Usuario::ModificarPC(int posicion)
 {
-	if (pComputadoraActual != nullptr)
+	if (pComputadoraActual == nullptr)
 	{
-		pComputadoraActual = new Computador();
+		this->pComputadoraActual = new Computador();
+		this->pComputadoraActual = this->pComputadoras->modificar(posicion);
 	}
 	else
 	{
 		free(pComputadoraActual);
+		this->pComputadoraActual = this->pComputadoras->modificar(posicion);
 	}
-
-	this->pComputadoraActual = this->pComputadoras->modificar(posicion);
 }
 
 void Usuario::EliminarPCS()
 {
 	this->pComputadoras->limpiar();
 	ManejadorArchivos::LimpiarArchivo("data/" + this->cedula + "/maquinas.txt");
+}
+
+bool Usuario::ObtenerHaCargadoArchivo()
+{
+	return this->haCargadoArchivo;
+}
+
+void Usuario::ConfigurarHaCargadoArchivo(bool haCargadoArchivo)
+{
+	this->haCargadoArchivo = haCargadoArchivo;
+}
+
+Computador* Usuario::ObtenerComputadorActual()
+{
+	return this->pComputadoraActual;
 }
