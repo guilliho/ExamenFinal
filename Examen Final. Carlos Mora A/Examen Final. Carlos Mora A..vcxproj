@@ -35,18 +35,64 @@
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AMD.h" />
+    <ClInclude Include="CELL.h" />
     <ClInclude Include="Compare.h" />
+    <ClInclude Include="Computador.h" />
+    <ClInclude Include="Cyrix.h" />
+    <ClInclude Include="DDRCinco.h" />
+    <ClInclude Include="DDRTres.h" />
+    <ClInclude Include="FabricaPC.h" />
+    <ClInclude Include="FreeBSD.h" />
+    <ClInclude Include="INTEL.h" />
     <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Kingston.h" />
     <ClInclude Include="Lista.h" />
+    <ClInclude Include="MacOS.h" />
+    <ClInclude Include="FabricaMacPC.h" />
     <ClInclude Include="ManejadorArchivos.h" />
+    <ClInclude Include="Memoria.h" />
+    <ClInclude Include="MOTOROLA.h" />
     <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Procesador.h" />
+    <ClInclude Include="SamSung.h" />
+    <ClInclude Include="Sigma.h" />
+    <ClInclude Include="Simm.h" />
+    <ClInclude Include="SistemaOperativo.h" />
+    <ClInclude Include="Unix.h" />
+    <ClInclude Include="Varna.h" />
+    <ClInclude Include="FabricaWindowsPC.h" />
+    <ClInclude Include="WindowsSiete.h" />
+    <ClInclude Include="WindowsVista.h" />
+    <ClInclude Include="WindowsXP.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AMD.cpp" />
+    <ClCompile Include="CELL.cpp" />
+    <ClCompile Include="Computador.cpp" />
+    <ClCompile Include="Cyrix.cpp" />
+    <ClCompile Include="DDRCinco.cpp" />
+    <ClCompile Include="DDRTres.cpp" />
+    <ClCompile Include="FreeBSD.cpp" />
+    <ClCompile Include="INTEL.cpp" />
     <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Kingston.cpp" />
     <ClCompile Include="Lista.cpp" />
+    <ClCompile Include="MacOS.cpp" />
+    <ClCompile Include="FabricaMacPC.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="ManejadorArchivos.cpp" />
+    <ClCompile Include="MOTOROLA.cpp" />
     <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="SamSung.cpp" />
+    <ClCompile Include="Sigma.cpp" />
+    <ClCompile Include="Simm.cpp" />
+    <ClCompile Include="Unix.cpp" />
+    <ClCompile Include="Varna.cpp" />
+    <ClCompile Include="FabricaWindowsPC.cpp" />
+    <ClCompile Include="WindowsSiete.cpp" />
+    <ClCompile Include="WindowsVista.cpp" />
+    <ClCompile Include="WindowsXP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

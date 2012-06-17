@@ -1,32 +1,45 @@
-﻿Build started 6/16/2012 5:20:05 PM.
-     1>Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\Examen Final. Carlos Mora A..lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 6/16/2012 9:49:53 PM.
+     1>Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Touching "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Iterator.cpp Lista.cpp Main.cpp ManejadorArchivos.cpp Nodo.cpp
-         Nodo.cpp
-         ManejadorArchivos.cpp
-         Main.cpp
-         Lista.cpp
-         Iterator.cpp
-         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WindowsPC.cpp
+         WindowsPC.cpp
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\Iterator.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\AMD.obj
+         Debug\CELL.obj
+         Debug\Cyrix.obj
+         Debug\DDRCinco.obj
+         Debug\DDRTres.obj
+         Debug\FreeBSD.obj
+         Debug\INTEL.obj
+         Debug\Iterator.obj
+         Debug\Kingston.obj
          Debug\Lista.obj
+         Debug\MacOS.obj
+         Debug\MacPC.obj
          Debug\Main.obj
          Debug\ManejadorArchivos.obj
+         Debug\MOTOROLA.obj
          Debug\Nodo.obj
-     1>Iterator.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+         Debug\SamSung.obj
+         Debug\Sigma.obj
+         Debug\Simm.obj
+         Debug\Unix.obj
+         Debug\Varna.obj
+         Debug\WindowsPC.obj
+         Debug\WindowsSiete.obj
+         Debug\WindowsVista.obj
+         Debug\WindowsXP.obj
+     1>AMD.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
          Examen Final. Carlos Mora A..vcxproj -> C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe;#1" /manifest "Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest"
        FinalizeBuildStatus:
          Deleting file "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild".
          Touching "Debug\Examen Final. Carlos Mora A..lastbuildstate".
-     1>Done Building Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" (rebuild target(s)).
+     1>Done Building Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.19
+Time Elapsed 00:00:00.71
