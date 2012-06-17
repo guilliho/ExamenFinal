@@ -1,6 +1,8 @@
-﻿Build started 6/17/2012 3:53:11 AM.
+﻿Build started 6/17/2012 4:00:27 AM.
      1>Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" on node 2 (rebuild target(s)).
-     1>InitializeBuildStatus:
+     1>_PrepareForClean:
+         Deleting file "Debug\Examen Final. Carlos Mora A..lastbuildstate".
+       InitializeBuildStatus:
          Creating "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AMD.cpp CELL.cpp Computador.cpp Controlador.cpp Cyrix.cpp DDRCinco.cpp DDRTres.cpp FreeBSD.cpp INTEL.cpp Interfaz.cpp Iterator.cpp Kingston.cpp Lista.cpp MacOS.cpp FabricaMacPC.cpp Main.cpp ManejadorArchivos.cpp MOTOROLA.cpp Nodo.cpp SamSung.cpp Sigma.cpp Simm.cpp Unix.cpp Usuario.cpp Varna.cpp FabricaWindowsPC.cpp WindowsSiete.cpp WindowsVista.cpp WindowsXP.cpp
@@ -38,7 +40,7 @@
          AMD.cpp
          Generating Code...
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\AMD.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\AMD.obj
          Debug\CELL.obj
          Debug\Computador.obj
          Debug\Controlador.obj
@@ -67,7 +69,6 @@
          Debug\WindowsSiete.obj
          Debug\WindowsVista.obj
          Debug\WindowsXP.obj
-     1>AMD.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
          Examen Final. Carlos Mora A..vcxproj -> C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe;#1" /manifest "Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest"
@@ -78,4 +79,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.43
+Time Elapsed 00:00:11.04
