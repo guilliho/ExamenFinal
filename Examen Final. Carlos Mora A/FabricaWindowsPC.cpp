@@ -60,3 +60,10 @@ SistemaOperativo* FabricaWindowsPC::CrearSistemaOperativo(int tipo)
 		return new WindowsXP();
 	}
 }
+
+string FabricaWindowsPC::tostring()
+{
+	stringstream ss;
+	ss<<"Tipo de PC: Windows PC"<<endl;
+	return ss.str();
+}

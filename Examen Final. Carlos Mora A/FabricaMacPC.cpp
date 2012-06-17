@@ -60,3 +60,10 @@ SistemaOperativo* FabricaMacPC::CrearSistemaOperativo(int tipo)
 		return new MacOS();
 	}
 }
+
+string FabricaMacPC::tostring()
+{
+	stringstream ss;
+	ss<<"Tipo de PC: Mac PC"<<endl;
+	return ss.str();
+}

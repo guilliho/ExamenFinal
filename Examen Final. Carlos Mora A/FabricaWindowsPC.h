@@ -16,4 +16,5 @@ public:
 	Memoria* CrearMemoria(int tipo);
 	Procesador* CrearProcesador(int tipo);
 	SistemaOperativo* CrearSistemaOperativo(int tipo);
+	string tostring();
 };

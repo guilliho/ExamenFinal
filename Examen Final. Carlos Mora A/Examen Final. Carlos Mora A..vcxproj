@@ -60,6 +60,7 @@
     <ClInclude Include="Simm.h" />
     <ClInclude Include="SistemaOperativo.h" />
     <ClInclude Include="Unix.h" />
+    <ClInclude Include="Usuario.h" />
     <ClInclude Include="Varna.h" />
     <ClInclude Include="FabricaWindowsPC.h" />
     <ClInclude Include="WindowsSiete.h" />
@@ -88,6 +89,7 @@
     <ClCompile Include="Sigma.cpp" />
     <ClCompile Include="Simm.cpp" />
     <ClCompile Include="Unix.cpp" />
+    <ClCompile Include="Usuario.cpp" />
     <ClCompile Include="Varna.cpp" />
     <ClCompile Include="FabricaWindowsPC.cpp" />
     <ClCompile Include="WindowsSiete.cpp" />

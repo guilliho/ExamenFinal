@@ -51,15 +51,22 @@ void Computador::ConfigurarTipoSistemaOperativo(int tipoSistemaOperativo)
 
 string Computador::ObtnerTipoMemoria()
 {
-	pMemoria->ObtenerTipoMemoria();
+	return pMemoria->ObtenerTipoMemoria();
 }
 
 string Computador::ObtenerTipoProcesador()
 {
-	pProcesador->ObtenerTipoProcesador();
+	return pProcesador->ObtenerTipoProcesador();
 }
 
 string Computador::ObtenerTipoSistemaOperativo()
 {
-	pSistemaOperativo->ObtenerTipoSistemaOperativo();
+	return pSistemaOperativo->ObtenerTipoSistemaOperativo();
+}
+
+string Computador::tostring()
+{
+	stringstream ss;
+	ss<<"Tipo de PC: "<<this->pFabricaPC->tostring()<<"Sistema Operativo: "<<this->ObtenerTipoSistemaOperativo()<<" Tipo de Memoria: "<<this->ObtnerTipoMemoria()<<" Tipo de Procesador: "<<this->ObtenerTipoProcesador()<<"\n"<<endl;
+	return ss.str();
 }

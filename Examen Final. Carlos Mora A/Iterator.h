@@ -1,3 +1,4 @@
+#pragma once
 #include"Nodo.h"
 
 template<class T>

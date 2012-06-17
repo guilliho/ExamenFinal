@@ -1,13 +1,17 @@
-﻿Build started 6/16/2012 9:49:53 PM.
+﻿Build started 6/17/2012 2:17:09 AM.
      1>Project "C:\HoProjects\ExamenFinal\Examen Final. Carlos Mora A\Examen Final. Carlos Mora A..vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\Examen Final. Carlos Mora A..unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WindowsPC.cpp
-         WindowsPC.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ManejadorArchivos.cpp Varna.cpp
+         Varna.cpp
+         ManejadorArchivos.cpp
+         Generating Code...
+     1>c:\hoprojects\examenfinal\examen final. carlos mora a\manejadorarchivos.cpp(134): warning C4715: 'ManejadorArchivos::LeerArchivo' : not all control paths return a value
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Examen Final. Carlos Mora A..exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\HoProjects\ExamenFinal\Debug\Examen Final. Carlos Mora A..lib" /MACHINE:X86 Debug\AMD.obj
          Debug\CELL.obj
+         Debug\Computador.obj
          Debug\Cyrix.obj
          Debug\DDRCinco.obj
          Debug\DDRTres.obj
@@ -17,7 +21,7 @@
          Debug\Kingston.obj
          Debug\Lista.obj
          Debug\MacOS.obj
-         Debug\MacPC.obj
+         Debug\FabricaMacPC.obj
          Debug\Main.obj
          Debug\ManejadorArchivos.obj
          Debug\MOTOROLA.obj
@@ -26,8 +30,9 @@
          Debug\Sigma.obj
          Debug\Simm.obj
          Debug\Unix.obj
+         Debug\Usuario.obj
          Debug\Varna.obj
-         Debug\WindowsPC.obj
+         Debug\FabricaWindowsPC.obj
          Debug\WindowsSiete.obj
          Debug\WindowsVista.obj
          Debug\WindowsXP.obj
@@ -42,4 +47,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
+Time Elapsed 00:00:01.83

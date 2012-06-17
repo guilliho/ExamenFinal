@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
+#include<sstream>
 #include "FabricaPC.h"
 #include "FabricaWindowsPC.h"
 #include "FabricaMacPC.h"
@@ -27,4 +28,5 @@ public:
 	string ObtnerTipoMemoria();
 	string ObtenerTipoProcesador();
 	string ObtenerTipoSistemaOperativo();
-}
+	string tostring();
+};

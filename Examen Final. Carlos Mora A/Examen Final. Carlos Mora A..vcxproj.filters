@@ -108,6 +108,9 @@
     <ClInclude Include="Computador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Usuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Iterator.cpp">
@@ -186,6 +189,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FabricaMacPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

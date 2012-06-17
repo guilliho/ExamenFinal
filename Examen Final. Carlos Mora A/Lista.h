@@ -1,3 +1,4 @@
+#pragma once
 #include"Nodo.h"
 #include"Compare.h"
 #include"Iterator.h"
@@ -14,15 +15,18 @@ public:
 	{
 		primero=ultimo=NULL;
 	}
+
 	~List()
 	{
 		while(!isempty())
 		this->eliminar(0);
 	}
+
 	Nodo<T> *getPrimero()
 	{
 		return primero;
 	}
+
 	void insertar(T *info)
 	{
 		Nodo<T> *nuevoNodo=new Nodo<T>(info);
@@ -34,6 +38,7 @@ public:
 			ultimo=nuevoNodo;
 		}
 	}
+
 	void eliminar(int a)
 	{
 		Nodo<T> *eliminar;
@@ -65,6 +70,33 @@ public:
 		}
 	}
 
+	int contador()
+	{
+		int numeroDeElementos = 0;
+		Iterator<T>* aux = new Iterator<T>();
+		aux->setActual(primero);
+		while(aux->getActual()!=NULL)
+		{
+			numeroDeElementos++;
+			aux->Siguiente();
+		}
+		return numeroDeElementos;
+	}
+
+	void limpiar()
+	{
+		Nodo<T> *eliminar;
+		Iterator<T>* aux = new Iterator<T>();
+		aux->setActual(primero);
+		while(aux->getActual()!=NULL)
+		{
+			eliminar=primero;
+			primero=primero->getSig();
+			aux->setActual(primero);
+			delete eliminar;
+		}
+	}
+
 	int busqueda(string dato)
 	{
 		Iterator<T> *aux=new Iterator<T>();
@@ -80,6 +112,7 @@ public:
 		}
 		return -1;
 	}
+
 	T * modificar(int n)
 	{
 		Iterator<T> *aux=new Iterator<T>();
@@ -92,6 +125,7 @@ public:
 		}
 		return aux->getActual()->getInfo();
 	}
+
 	bool isempty()
 	{
 		if(primero==NULL)

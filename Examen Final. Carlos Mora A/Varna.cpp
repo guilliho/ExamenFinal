@@ -3,5 +3,5 @@
 
 string Varna::ObtenerTipoMemoria()
 {
-	return "Verna";
+	return "Varna";
 }
